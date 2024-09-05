@@ -1,4 +1,4 @@
-package homework1.ex1;
+package homework1.ex1.animal;
 
 /**
  * Класс "птица"

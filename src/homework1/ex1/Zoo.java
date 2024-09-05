@@ -1,5 +1,7 @@
 package homework1.ex1;
 
+import homework1.ex1.animal.Animal;
+
 /**
  * Класс "зоопарк"
  */

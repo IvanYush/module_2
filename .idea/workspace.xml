@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab2828c8-8094-4d68-a172-bb185ceb9eec" name="Changes" comment="" />
+    <list default="true" id="ab2828c8-8094-4d68-a172-bb185ceb9eec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_checks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/ex1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/ex1/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/ex1/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/ex1/animal/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/ex1/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/ex1/animal/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/ex1/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/ex1/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/ex1/animal/Tiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/ex1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/ex1/Zoo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lecDukDeEYa3W6pYnHShoL5ZpH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -22,7 +35,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/Java_Proect/module_2/google_checks.xml",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
