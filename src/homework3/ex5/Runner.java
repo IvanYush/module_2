@@ -32,11 +32,14 @@ public class Runner {
         Feedback feedback4 = new Feedback(4, "плохой товар", 100,
                 LocalDateTime.of(2024, 1, 25, 13, 37));
 
-        ArrayList<Feedback> feedbacks = new ArrayList<>(List.of(feedback1, feedback2, feedback3, feedback4));
+        List<Feedback> feedbacks = List.of(feedback1, feedback2, feedback3, feedback4);
 
-        Comparator<Feedback> feedbackComparator = Comparator.comparingInt(Feedback::getCountLike).
-                thenComparing(Feedback::getFeedbackDateTime).thenComparingInt(Feedback::getId);
-        feedbacks.sort(feedbackComparator.reversed());
-        System.out.println(feedbacks);
+        Comparator<Feedback> feedbackComparator = Comparator.comparingInt(Feedback::getCountLike)
+                        .thenComparing(Feedback::getFeedbackDateTime).thenComparingInt(Feedback::getId);
+
+        TreeSet<Feedback> feedbacksSort = new TreeSet<>(feedbackComparator.reversed());
+        feedbacksSort.addAll(feedbacks);
+        feedbacksSort.forEach(e -> System.out.println("Отзыв №" + e.getId() + ": " + e.getId() + ", " + e.getText() +
+                ", " + e.getCountLike() + ", " + e.getFeedbackDateTime()));
     }
 }
